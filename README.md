@@ -1,4 +1,4 @@
-wp-theme-skeleton
+WordPress theme skeleton
 =================
 
 Basic WordPress Theme structure
