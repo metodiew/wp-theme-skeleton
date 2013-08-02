@@ -7,7 +7,7 @@
 	endif;
 	?>
 
-<?php if ( have_comments() ) : ?>
+<?php if (  comments_open() && have_comments() ) : ?>
     <h4 id="comments">
     	<?php comments_number( __( 'No Comments &#187;', 'textdomain' ), __( '1 Comment &#187;', 'textdomain' ), __( '% Comments &#187;', 'textdomain' ) ); ?> for <?php the_title(); ?>
     </h4>
